@@ -1,0 +1,129 @@
+/*misc...*/
+body {
+	margin: 0;
+	font-family: sans-serif	;
+}
+
+a:visited {
+	color: black;
+}
+a:hover {
+	color: #32cd32;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Top navigation bar*/
+
+.top-nav-bar ul li {
+	list-style-type: none;
+	text-align: center;
+	display: inline-block;
+	border-left: 0;
+	border-right: 1px solid black;
+	border-color: white;
+	padding: 14px 16px;
+}
+
+ul {
+	margin: 0;
+}
+
+.navigation-top ul li a {
+	padding: 14px 16px;
+	list-style-type: none;
+}
+
+.navigation-top {
+	margin-left: 38%;
+}
+
+#noborder {
+	border-right: 0;
+}
+
+.flip {
+	transition: 1.4s;
+	transform-style: preserve-3d;
+}
+
+.flip:hover {
+	transform: rotateY(360deg)
+}
+
+.navback {
+	background-color: #aaa;
+	height: 3em;
+}
+
+/*header*/
+
+.myname {
+	border-bottom: 2px solid black;
+	margin: 5px 10px;
+}
+
+
+/*body*/
+
+.main {
+	width: 50%;
+	float: left;
+}
+
+/*image content*/
+
+.pic {
+	float: left;
+	margin: 5px 20px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.short-bio-section {
+	float: right;
+	width: 300px;
+}
+
+/*links attributes*/
+
+div.links a:visited{
+	color: blue;
+}
+
+div.links a:hover{
+	color: yellow;
+}
+
+.links {
+	display: inline-block;
+	float: left;
+	margin: 5px 20px;
+}
+
+/*top right collomn*/
+
+.main2 {
+	float: right;
+	width: 50%;
+}
+
+aside.favorites {
+	margin: 5px 50px;
+}
+
+aside.favorites article.entry img {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 50px;
+	margin-bottom: 5px;
+}
+
+aside.favorites article.entry p {
+	float: right;
+	width: 300px;
+	margin-right: 50px;
+	margin-bottom: 5px;
+}
