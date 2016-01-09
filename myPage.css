@@ -8,7 +8,7 @@ a:visited {
 	color: black;
 }
 a:hover {
-	color: #32cd32;
+	color: blue;
 }
 
 a {
@@ -115,8 +115,8 @@ aside.favorites {
 
 aside.favorites article.entry img {
 	float: left;
-	height: 150px;
-	width: 150px;
+	height: 175px;
+	width: 175px;
 	margin-left: 50px;
 	margin-bottom: 5px;
 }
